@@ -21,8 +21,7 @@ Production training, evaluation, and inference logic and all the reusable code b
 ```text
 ├── exploration
 │   ├── annotators_exploration.ipynb
-│   ├── physiological_data_exploration.ipynb
-│   └── test.ipynb
+│   └── physiological_data_exploration.ipynb
 └── README.md
 ```
 <!-- END TREE -->
