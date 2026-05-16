@@ -1,3 +1,8 @@
+data/raw/test/memes
+data/raw/training/memes
+data/raw/training/EXIST2026_training.json
+data/raw/test/EXIST2026_test_clean.json
+
 # IDE - JetBrains
 .idea/
 
