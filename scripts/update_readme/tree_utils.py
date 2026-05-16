@@ -10,8 +10,15 @@ IGNORE_DIRS = {
 
 IGNORE_FILES = {
     ".DS_Store",
+}
+
+IGNORE_EXTENSIONS = {
+    ".jpg",
     ".jpeg",
     ".png",
+    ".gif",
+    ".bmp",
+    ".webp",
 }
 
 def build_tree(path: Path, prefix=""):
@@ -21,6 +28,7 @@ def build_tree(path: Path, prefix=""):
         p for p in path.iterdir()
         if p.name not in IGNORE_DIRS
         and p.name not in IGNORE_FILES
+        and p.suffix.lower() not in IGNORE_EXTENSIONS
     ]
 
     entries.sort(key=lambda p: (p.is_file(), p.name.lower()))
