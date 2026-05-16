@@ -8,7 +8,7 @@ The project is designed to be modular, reproducible, and easy to extend for expe
 
 ## Overview
 
-The main objective of this project is to build robust NLP models for the EXIST 2026 task, including:
+The main goal of this project is to build robust NLP models for the EXIST 2026 task, including:
 
 - Data preprocessing and cleaning
 - Model training and fine-tuning
