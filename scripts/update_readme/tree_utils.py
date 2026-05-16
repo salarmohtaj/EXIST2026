@@ -6,12 +6,12 @@ IGNORE_DIRS = {
     ".ipynb_checkpoints",
     ".git",
     ".idea",
-    "jpeg",
-    "png",
 }
 
 IGNORE_FILES = {
     ".DS_Store",
+    "jpeg",
+    "png",
 }
 
 def build_tree(path: Path, prefix=""):
