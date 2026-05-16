@@ -4,9 +4,9 @@ This repository contains the project materials, codebase, and experiments develo
 
 The project is designed to be modular, reproducible, and easy to extend for experimenting with different model architectures and training strategies.
 
----
 
-## 📌 Overview
+
+## Overview
 
 The main objective of this project is to build robust NLP models for the EXIST 2026 task, including:
 
@@ -17,9 +17,8 @@ The main objective of this project is to build robust NLP models for the EXIST 2
 
 The repository supports both traditional machine learning baselines and transformer-based models.
 
----
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 EXIST2026/
