@@ -6,6 +6,8 @@ IGNORE_DIRS = {
     ".ipynb_checkpoints",
     ".git",
     ".idea",
+    "jpeg",
+    "png",
 }
 
 IGNORE_FILES = {
